@@ -15,7 +15,7 @@ public class ServletTela1Cadastro extends HttpServlet {
     
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		PrintWriter resposta = response.getWriter();
+PrintWriter resposta = response.getWriter();
 		
 		resposta.write("<html>");
 		resposta.write("<head>");
@@ -35,6 +35,9 @@ public class ServletTela1Cadastro extends HttpServlet {
 		resposta.write("<input type=\"submit\" value=\"Confirmar\"><BR>");
 		resposta.write("</form>");
 		resposta.write("</body></html>");
+	
+
+
 	}
 
 }
