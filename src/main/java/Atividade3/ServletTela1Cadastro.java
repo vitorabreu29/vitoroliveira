@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ServletTela1Cadastro extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    
+   
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 PrintWriter resposta = response.getWriter();
@@ -36,8 +36,6 @@ PrintWriter resposta = response.getWriter();
 		resposta.write("</form>");
 		resposta.write("</body></html>");
 	
-
-
 	}
 
 }
